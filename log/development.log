@@ -1,0 +1,3200 @@
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-01 10:30:43 +0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/railties-4.2.1/lib/rails/templates/rails/welcome/index.html.erb (1.6ms)
+Completed 200 OK in 53ms (Views: 39.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lab_one" for 127.0.0.1 at 2015-11-01 10:30:50 +0300
+
+ActionController::RoutingError (No route matches [GET] "/lab_one"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/oleg/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/oleg/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/oleg/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.1ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (12.6ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (61.9ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (21.4ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (53.3ms)
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 10:34:17 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 3954ms (Views: 3946.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-bbea2466a8864178bac9f020cb73565d0ad7960b5b8e225e6a726394a29afa29.css?body=1" for 127.0.0.1 at 2015-11-01 10:34:21 +0300
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-11-01 10:34:21 +0300
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-11-01 10:34:21 +0300
+
+
+Started GET "/assets/lab_one.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-01 10:34:21 +0300
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-11-01 10:34:21 +0300
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-11-01 10:34:21 +0300
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-11-01 10:34:21 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 10:36:42 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 34ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Invalid CSS after "$background ": expected ":", was "= "#507296""):
+    2: <html>
+    3: <head>
+    4:   <title>Ivt</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/lab_one.scss:7
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__2298844146370580016_69813673362760'
+
+
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.8ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.8ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (32.2ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (14.8ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (32.2ms)
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 10:37:03 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 34ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Invalid CSS after "header": expected selector or at-rule, was "{"):
+    2: <html>
+    3: <head>
+    4:   <title>Ivt</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/lab_one.scss:8
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__2298844146370580016_69813673362760'
+
+
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.9ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.6ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (26.3ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (14.0ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (27.9ms)
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 10:37:17 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1422ms (Views: 1421.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-c49ebf849b6b1cda9da6fa65bd72fb8faecb3d07e1aab2feb8137ee6248b63d5.css?body=1" for 127.0.0.1 at 2015-11-01 10:37:18 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 10:39:14 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 59ms (Views: 58.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-01 10:39:14 +0300
+
+
+Started GET "/assets/application.self-3708fcd94eee9695f362608611716b5fb93b95ebbdd9e7b5e030981df2843679.css?body=1" for 127.0.0.1 at 2015-11-01 10:39:14 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 10:39:50 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 92ms (Views: 91.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-9947cc1dd03053e1acb7941e7a688487f6d2937ec598beeebc32ef9451f95c76.css?body=1" for 127.0.0.1 at 2015-11-01 10:39:50 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 10:40:45 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 59ms (Views: 58.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-477b7cc360f67366efd2b44eaa1fa72fae35dff3312e3bc2a354f14fac779483.css?body=1" for 127.0.0.1 at 2015-11-01 10:40:45 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 10:41:04 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 45ms (Views: 44.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 10:41:06 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 47ms (Views: 45.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 10:43:11 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 81ms (Views: 80.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-1de9d468d5f16b1d52869fc35c409e99185d386d1fafe1dfd5102f55b0f52b62.css?body=1" for 127.0.0.1 at 2015-11-01 10:43:11 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 10:43:31 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 59ms (Views: 58.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-a91225f4489faeda5cafcd5f625b4131d55ada737f6f9ceb03365a7631fba092.css?body=1" for 127.0.0.1 at 2015-11-01 10:43:31 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 10:43:39 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 97ms (Views: 96.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-9eddcc8209cb59b89bb530466a7d994d6e4a649226754d5a42bf1915920efc10.css?body=1" for 127.0.0.1 at 2015-11-01 10:43:39 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 10:43:54 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 99ms (Views: 97.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-7e9aedee686c43c73d3184e36c7731e2465c128e35954bd5a2f8302316d077b7.css?body=1" for 127.0.0.1 at 2015-11-01 10:43:54 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 10:45:35 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 83ms (Views: 82.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 10:47:25 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 78ms (Views: 77.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-25fd840a840a96615148018606404a10bca2bfefd12eaf4e5ceb1b639c74c7b7.css?body=1" for 127.0.0.1 at 2015-11-01 10:47:25 +0300
+
+
+Started GET "/assets/application.self-a24d82dbbf4f3d0ce28c43ab32d9e1eb61deabb9e470684413bbac78288eb244.css?body=1" for 127.0.0.1 at 2015-11-01 10:47:25 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 10:48:16 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 277ms (Views: 276.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/affix.self-f7aef9d98ee5ece34a6a92a6a15bba777d93e8d908b75c95a85088277f394200.js?body=1" for 127.0.0.1 at 2015-11-01 10:48:17 +0300
+
+
+Started GET "/assets/bootstrap/alert.self-896ab026e6823f5cef2441e07dac53d0692a5b772ac58b1ce20aa624c342d3f4.js?body=1" for 127.0.0.1 at 2015-11-01 10:48:17 +0300
+
+
+Started GET "/assets/bootstrap/collapse.self-93820e9b486e375a7fb4477602def3a6f8381fa6d50938d5378297ffbe4a1248.js?body=1" for 127.0.0.1 at 2015-11-01 10:48:17 +0300
+
+
+Started GET "/assets/bootstrap/dropdown.self-30536ae4d54b2685c26b5787ed0eb549a9075717fe690cce6270873bedf2df00.js?body=1" for 127.0.0.1 at 2015-11-01 10:48:17 +0300
+
+
+Started GET "/assets/bootstrap/carousel.self-b2e5e14483e6c31343a83861b7d487620f143d6fc2d07d5ae7544b6b225ba6be.js?body=1" for 127.0.0.1 at 2015-11-01 10:48:17 +0300
+
+
+Started GET "/assets/bootstrap/button.self-d19f3e2bcd3a7a4d75c11b9141b3fabd2c11987da1e99c85548ec3ecf8db30c3.js?body=1" for 127.0.0.1 at 2015-11-01 10:48:17 +0300
+
+
+Started GET "/assets/bootstrap/tab.self-9b77df34cbbb08ec93a806d6cdb741f04e3dbf3389978a0679146f2d2987bc89.js?body=1" for 127.0.0.1 at 2015-11-01 10:48:17 +0300
+
+
+Started GET "/assets/bootstrap/transition.self-9616c4e856b57659b67da3c6f2adcd584b5601ef4bebcdadab8ebb387d80bb25.js?body=1" for 127.0.0.1 at 2015-11-01 10:48:17 +0300
+
+
+Started GET "/assets/bootstrap/scrollspy.self-c5c6ed008955656d345067e9821d79f1216b8383134d08465d4aa1a33a2b93b4.js?body=1" for 127.0.0.1 at 2015-11-01 10:48:17 +0300
+
+
+Started GET "/assets/bootstrap/modal.self-bcfe54f3132bf16a8c5ce4289e47eba488f6522a08f49f378a037061c6c7aa4c.js?body=1" for 127.0.0.1 at 2015-11-01 10:48:17 +0300
+
+
+Started GET "/assets/bootstrap/tooltip.self-3aa41fbe871573b34e0ebddf31598cd5a11a9841ca85f90934ea46326e46626d.js?body=1" for 127.0.0.1 at 2015-11-01 10:48:17 +0300
+
+
+Started GET "/assets/bootstrap/popover.self-b73e9c9111d01148e24bbc46e096782e024dc5db630e7078cf11ed2587ef8551.js?body=1" for 127.0.0.1 at 2015-11-01 10:48:17 +0300
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2015-11-01 10:48:17 +0300
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 127.0.0.1 at 2015-11-01 10:48:17 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 10:48:37 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 105ms (Views: 103.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 10:48:39 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 115ms (Views: 114.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 10:50:08 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 109ms (Views: 108.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 10:50:44 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1342ms (Views: 1341.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-2585741c0688da116f0ce4ed8182a3237f602fa4a7db4e29e6170c1fe6c71ad3.css?body=1" for 127.0.0.1 at 2015-11-01 10:50:46 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 10:51:08 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1399ms (Views: 1398.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-9e821f61656b6137d0c82028ca69fbb9ee822399625959f6ac97e65da58263d7.css?body=1" for 127.0.0.1 at 2015-11-01 10:51:09 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 10:51:32 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 1456ms (Views: 1455.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-51c6f95248c5f4e3dbfad99ec20636434f1c4f0fe78c723da4db7a2836be9c1f.css?body=1" for 127.0.0.1 at 2015-11-01 10:51:34 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 11:26:10 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 2419ms (Views: 2410.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-27285119270de8aa4822515cd58398e97b4bdb2bad1063616a2366319aa70b42.css?body=1" for 127.0.0.1 at 2015-11-01 11:26:13 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 11:28:15 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1705ms (Views: 1704.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-ce56e643ca10bfc5b9d1556a71498b08f111b30d6d89b7c520e69e43846cf849.css?body=1" for 127.0.0.1 at 2015-11-01 11:28:16 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 11:29:08 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1782ms (Views: 1781.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-5ebe632528204550595f5e5285c9a43a96f3a5d2a4858651b2c9f4bb1868aed8.css?body=1" for 127.0.0.1 at 2015-11-01 11:29:09 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 11:36:47 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 131ms (Views: 130.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/fontawesome-webfont-3c4a1bb7ce3234407184f0d80cc4dec075e4ad616b44dcc5778e1cfb1bc24019.woff2?v=4.4.0" for 127.0.0.1 at 2015-11-01 11:36:47 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 11:37:38 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 137ms (Views: 136.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 11:37:56 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 118ms (Views: 117.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 11:39:00 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1971ms (Views: 1969.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-fd9f3b89b11bfc3bf9a3ed8b3d1f1a33db0b3f692ce68a283db1079b456a874a.css?body=1" for 127.0.0.1 at 2015-11-01 11:39:02 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 11:40:04 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 1915ms (Views: 1914.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-e7bf2edf0126bf130a3414f76bd13fe1b709a60f1120e0ff9b65328fe0896722.css?body=1" for 127.0.0.1 at 2015-11-01 11:40:06 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 11:40:28 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1763ms (Views: 1762.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-8abdf2b4626fa9091a021f6d91d3fd2c507779cd68fa1e4363a2427cb2c8da08.css?body=1" for 127.0.0.1 at 2015-11-01 11:40:30 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 11:42:03 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1762ms (Views: 1760.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-3820955f10bb488c00cbbf3a18a81c4c5e7f5e35e8343da87e41e68b6b1cefb6.css?body=1" for 127.0.0.1 at 2015-11-01 11:42:04 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 11:43:07 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2005ms (Views: 2003.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-b736bb90f65656d483dff360d815402051ad18ad02519fb595e0afeca2862625.css?body=1" for 127.0.0.1 at 2015-11-01 11:43:09 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 11:48:05 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1875ms (Views: 1873.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-e3b6f6ba51783f6d31da9994a8644c0524d99b0350dfcb6e53d6929b24ea93dc.css?body=1" for 127.0.0.1 at 2015-11-01 11:48:07 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 11:48:38 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1810ms (Views: 1808.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-5b92fff12924d0fd5f77c7aa69bc881684003b00d502cd714106f3c50a71d7d1.css?body=1" for 127.0.0.1 at 2015-11-01 11:48:40 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 11:48:51 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1774ms (Views: 1773.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-761a51ca51ece9df02eb70123cdd630a9fd3b57de21635061025f1ddc83e0cb2.css?body=1" for 127.0.0.1 at 2015-11-01 11:48:53 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 11:49:50 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 1806ms (Views: 1804.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-d62aa333428d234938c5b22fd9983fa6c7aebd0491a9d43894dc5752a0d6ad92.css?body=1" for 127.0.0.1 at 2015-11-01 11:49:51 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 11:50:19 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1771ms (Views: 1770.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-07d00c0770ee90ed80e927d0555461b540b3659bbbe3a635185a5e279f9dc8b6.css?body=1" for 127.0.0.1 at 2015-11-01 11:50:20 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 11:51:28 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1833ms (Views: 1832.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-0c7832b79fe0b43905585e06b8b29b2ce40d3eea4b94efbfe9dbc25e1f054ef8.css?body=1" for 127.0.0.1 at 2015-11-01 11:51:30 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 11:51:51 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1794ms (Views: 1792.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-9c47200a6f69bae980a1f4df240c1c1b9db655fe8b84ea2c03ff615ca3d5d4c4.css?body=1" for 127.0.0.1 at 2015-11-01 11:51:53 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 11:52:24 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1752ms (Views: 1751.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-b944340896dbf21382cf886176a92618746f85b6487981495190ea560b566c94.css?body=1" for 127.0.0.1 at 2015-11-01 11:52:26 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 11:53:08 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1741ms (Views: 1740.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-ea985f51d5a9f4ad2613a1cd58b21726bc6bac66612be4566f1a3412d2bb911e.css?body=1" for 127.0.0.1 at 2015-11-01 11:53:09 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 11:53:31 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 153ms (Views: 151.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 11:55:49 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 1876ms (Views: 1875.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-45563e4987063e9cca2f6e6561d3295d1b9bb30e6e24da6bc8ad4503fc269068.css?body=1" for 127.0.0.1 at 2015-11-01 11:55:51 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 11:56:18 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1841ms (Views: 1840.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-8748a679cd84f68210b4bb9025b6540aad795ff2467529099f25bc5674efa7e7.css?body=1" for 127.0.0.1 at 2015-11-01 11:56:20 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 11:57:34 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1761ms (Views: 1760.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-30ce8bcbc4c7b1221909df3bf59a23bbc5c125d44f788a3e1a0b0645950b6541.css?body=1" for 127.0.0.1 at 2015-11-01 11:57:36 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 11:59:44 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1725ms (Views: 1724.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-754b37169442ba98c9337d1aa0672e13c9fd608fbc25aa1d751468b96ca16c6f.css?body=1" for 127.0.0.1 at 2015-11-01 11:59:46 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 12:00:31 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 130ms (Views: 128.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 12:01:11 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 1610ms (Views: 1609.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-35539e9861a95e29ef287f8e66b75564a0cd759b3434f24df9225b752a5dd163.css?body=1" for 127.0.0.1 at 2015-11-01 12:01:12 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 12:01:40 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1647ms (Views: 1646.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-4c8e74709683d7911a3fad0eb754d9323e982cbd825cffbd19529f5f5c936bb2.css?body=1" for 127.0.0.1 at 2015-11-01 12:01:42 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 12:01:52 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1707ms (Views: 1705.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-04b992eba158c890c0677c9549170deb24ce7b1b2e11c1358e8a19246186251b.css?body=1" for 127.0.0.1 at 2015-11-01 12:01:54 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 12:02:11 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1673ms (Views: 1671.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-53ab681be3068e94aa56d42b92751bfe05f4fd661bab396c52617128bf443d1b.css?body=1" for 127.0.0.1 at 2015-11-01 12:02:13 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 12:02:32 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1736ms (Views: 1735.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-6effc8961fd268319304ba26463af56e79428df3ace8ef5ec8f69819ed5f09c8.css?body=1" for 127.0.0.1 at 2015-11-01 12:02:34 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 12:11:02 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 341ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (SyntaxError: [stdin]:6:27: unexpected ->):
+    3: <head>
+    4:   <title>Ivt</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+    9: <body>
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___1732070806096066560_33117640'
+
+
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.8ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (23.9ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (17.7ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (33.4ms)
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 12:11:16 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 334ms (Views: 333.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-c6adc57f2a97d05b8c3bd5e1fd1d8d68b759fc94e539bfa40a56f93f7c720eca.js?body=1" for 127.0.0.1 at 2015-11-01 12:11:16 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 12:13:23 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 372ms (Views: 371.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-71c88df37535a4d9894bc50cf99f74c2ca1a3e674f16ef36e01ad8ef5a21b432.js?body=1" for 127.0.0.1 at 2015-11-01 12:13:23 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 12:23:48 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 392ms (Views: 391.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-3af5cf18f094e14a54ec882b8c9ccacf77622431910c1e1c2c56a3ee5c0aa506.js?body=1" for 127.0.0.1 at 2015-11-01 12:23:48 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 12:25:07 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 322ms (Views: 321.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-41eea3ed3fbbfaddbe02185e9e1eb3b1e8d0122f81f0389cb72ba11ff8dafea0.js?body=1" for 127.0.0.1 at 2015-11-01 12:25:07 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 12:27:49 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 312ms (Views: 311.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-62224b7661c9a9e66571ef970db111967953f40c4d784aaede868db66ce52d8c.js?body=1" for 127.0.0.1 at 2015-11-01 12:27:50 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 12:28:30 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 305ms (Views: 304.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-82e8d4ac330bc7c2f51f54aa8668bae128b9bb4d1e54c72d3f773a7bc2ef6c67.js?body=1" for 127.0.0.1 at 2015-11-01 12:28:30 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 12:29:36 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 440ms (Views: 439.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-0a791e57e721ce3354734a83a34fb7fb2a2fe733636d8547bf2eb660bec5ba35.js?body=1" for 127.0.0.1 at 2015-11-01 12:29:36 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 12:30:00 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 286ms (Views: 285.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-dd4a46e4028aebd6f94356cbba31aba28b4344b5900f95874be16da688e1535d.js?body=1" for 127.0.0.1 at 2015-11-01 12:30:00 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 12:33:34 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 308ms (Views: 307.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-d80ea59d9159ca104efa5c505eacaf64ece493320ac0eb65c9fe74f8f32d5e88.js?body=1" for 127.0.0.1 at 2015-11-01 12:33:35 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 12:34:02 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 377ms (Views: 376.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-f403554094c19c2c3acd8ab19e0b5783fcd79b9f94eb48b293d911e709887cb9.js?body=1" for 127.0.0.1 at 2015-11-01 12:34:03 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 12:34:39 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 325ms (Views: 324.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-5f8647872a2468af373e36d132123c78b13297ec25d9c0dcffc90db742d4b1d3.js?body=1" for 127.0.0.1 at 2015-11-01 12:34:39 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 12:35:10 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 135ms (Views: 133.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 12:35:36 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 345ms (Views: 343.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-77e668896dc3c1560fcec3d9e99e71ea43009d3c6b7568df7f953c2424492a43.js?body=1" for 127.0.0.1 at 2015-11-01 12:35:37 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 12:37:10 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 338ms (Views: 337.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-f7bbb6071f0fa8c330a005d269aaad5bf0b19e5223925731bf2f1b8c3e8cef75.js?body=1" for 127.0.0.1 at 2015-11-01 12:37:10 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 12:38:29 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 372ms (Views: 371.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-176a8858e9541076f92a6d02aa2d8cc7ce1fb2bcf448b4343c7cfd63cbbf3d70.js?body=1" for 127.0.0.1 at 2015-11-01 12:38:30 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 12:39:33 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 358ms (Views: 356.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-697989a33e3ed8fe848e2cb93d6a5d9cb61c00776a13b0d0f7f95475f53c189e.js?body=1" for 127.0.0.1 at 2015-11-01 12:39:34 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 12:40:41 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 337ms (Views: 336.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-4c9b7245716fd143e6febbcc92c978be95baf992bcb82d731adb56d4ce78c9d3.js?body=1" for 127.0.0.1 at 2015-11-01 12:40:42 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 12:43:30 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 301ms (Views: 300.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-723b4092668361224faf200a727caadd6b4adfee5c4e9db39be884ce8ec3f028.js?body=1" for 127.0.0.1 at 2015-11-01 12:43:30 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 12:54:10 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 333ms (Views: 332.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-7922ed0d6cd6e35f154e4b15513baedf057640e652aaa6319f6271e23e419c2c.js?body=1" for 127.0.0.1 at 2015-11-01 12:54:10 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 12:55:06 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 351ms (Views: 350.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-4402b7831e85ba3dd5eedc3270b7af1ed59f87f46fd85c06896399b99a9d39ee.js?body=1" for 127.0.0.1 at 2015-11-01 12:55:06 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 12:55:35 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 386ms (Views: 385.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-0f7fec52680ffa6ffca95ccb0f7968666c807a548f228af53557b26a71ccc6c9.js?body=1" for 127.0.0.1 at 2015-11-01 12:55:36 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 13:00:24 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 351ms (Views: 350.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-6effc8961fd268319304ba26463af56e79428df3ace8ef5ec8f69819ed5f09c8.css?body=1" for 127.0.0.1 at 2015-11-01 13:00:25 +0300
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-11-01 13:00:25 +0300
+
+
+Started GET "/assets/application.self-a24d82dbbf4f3d0ce28c43ab32d9e1eb61deabb9e470684413bbac78288eb244.css?body=1" for 127.0.0.1 at 2015-11-01 13:00:25 +0300
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-11-01 13:00:25 +0300
+
+
+Started GET "/assets/bootstrap/alert.self-896ab026e6823f5cef2441e07dac53d0692a5b772ac58b1ce20aa624c342d3f4.js?body=1" for 127.0.0.1 at 2015-11-01 13:00:25 +0300
+
+
+Started GET "/assets/bootstrap/button.self-d19f3e2bcd3a7a4d75c11b9141b3fabd2c11987da1e99c85548ec3ecf8db30c3.js?body=1" for 127.0.0.1 at 2015-11-01 13:00:25 +0300
+
+
+Started GET "/assets/bootstrap/affix.self-f7aef9d98ee5ece34a6a92a6a15bba777d93e8d908b75c95a85088277f394200.js?body=1" for 127.0.0.1 at 2015-11-01 13:00:25 +0300
+
+
+Started GET "/assets/bootstrap/carousel.self-b2e5e14483e6c31343a83861b7d487620f143d6fc2d07d5ae7544b6b225ba6be.js?body=1" for 127.0.0.1 at 2015-11-01 13:00:25 +0300
+
+
+Started GET "/assets/bootstrap/collapse.self-93820e9b486e375a7fb4477602def3a6f8381fa6d50938d5378297ffbe4a1248.js?body=1" for 127.0.0.1 at 2015-11-01 13:00:25 +0300
+
+
+Started GET "/assets/bootstrap/dropdown.self-30536ae4d54b2685c26b5787ed0eb549a9075717fe690cce6270873bedf2df00.js?body=1" for 127.0.0.1 at 2015-11-01 13:00:25 +0300
+
+
+Started GET "/assets/bootstrap/tab.self-9b77df34cbbb08ec93a806d6cdb741f04e3dbf3389978a0679146f2d2987bc89.js?body=1" for 127.0.0.1 at 2015-11-01 13:00:25 +0300
+
+
+Started GET "/assets/bootstrap/transition.self-9616c4e856b57659b67da3c6f2adcd584b5601ef4bebcdadab8ebb387d80bb25.js?body=1" for 127.0.0.1 at 2015-11-01 13:00:25 +0300
+
+
+Started GET "/assets/bootstrap/scrollspy.self-c5c6ed008955656d345067e9821d79f1216b8383134d08465d4aa1a33a2b93b4.js?body=1" for 127.0.0.1 at 2015-11-01 13:00:25 +0300
+
+
+Started GET "/assets/bootstrap/modal.self-bcfe54f3132bf16a8c5ce4289e47eba488f6522a08f49f378a037061c6c7aa4c.js?body=1" for 127.0.0.1 at 2015-11-01 13:00:25 +0300
+
+
+Started GET "/assets/bootstrap/tooltip.self-3aa41fbe871573b34e0ebddf31598cd5a11a9841ca85f90934ea46326e46626d.js?body=1" for 127.0.0.1 at 2015-11-01 13:00:25 +0300
+
+
+Started GET "/assets/bootstrap/popover.self-b73e9c9111d01148e24bbc46e096782e024dc5db630e7078cf11ed2587ef8551.js?body=1" for 127.0.0.1 at 2015-11-01 13:00:25 +0300
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2015-11-01 13:00:25 +0300
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-11-01 13:00:25 +0300
+
+
+Started GET "/assets/lab_one.self-ab0295aaec040d497dd649e62875853e4fb0f0ff0cf5bab2d7ac5e65e57b9c5d.js?body=1" for 127.0.0.1 at 2015-11-01 13:00:25 +0300
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 127.0.0.1 at 2015-11-01 13:00:25 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 13:01:15 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 275ms (Views: 274.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-6f2d439c461eb10c99a74346200f6ac077c3571437c1f52540b834ce0c351775.js?body=1" for 127.0.0.1 at 2015-11-01 13:01:16 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 13:01:32 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 169ms (Views: 168.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 13:05:31 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 175ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (SyntaxError: [stdin]:26:1: unexpected indentation):
+    3: <head>
+    4:   <title>Ivt</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+    9: <body>
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___1732070806096066560_33117640'
+
+
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.0ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.0ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (25.4ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (14.1ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (27.3ms)
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 13:06:03 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 182ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (SyntaxError: [stdin]:26:1: unexpected indentation):
+    3: <head>
+    4:   <title>Ivt</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+    9: <body>
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___1732070806096066560_33117640'
+
+
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.8ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (23.2ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (13.6ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (26.1ms)
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 13:06:14 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 281ms (Views: 279.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-c08709d21945e5a1a0c5c87377a2b9818e5955ca4a5e52092e2b98497daf9323.js?body=1" for 127.0.0.1 at 2015-11-01 13:06:14 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 13:06:43 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 319ms (Views: 318.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-15bc52e80da5fae96526a0267d1604a5af5bafc5e08f66c63e0fd77129a6484b.js?body=1" for 127.0.0.1 at 2015-11-01 13:06:43 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 13:07:01 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 150ms (Views: 149.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 13:07:25 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 135ms (Views: 134.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 13:08:42 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 329ms (Views: 328.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-80f5c3f4d0043ec642670d5f17998a9ff3f315c46113628874ed8be79a81d993.js?body=1" for 127.0.0.1 at 2015-11-01 13:08:42 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 13:09:03 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 356ms (Views: 355.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-cc791c58a452cb88e3b583075eceecf0ff7ff45f008c4590a883018bed655d25.js?body=1" for 127.0.0.1 at 2015-11-01 13:09:03 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 13:09:29 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 329ms (Views: 328.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-bcb6943844cb907f0243fc46ea42c3a35fe52a7d7d2b089d04d85774e1f63031.js?body=1" for 127.0.0.1 at 2015-11-01 13:09:30 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 13:09:55 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 323ms (Views: 321.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-d36d573925f26f2a841cf156f8e376b441e1399025d21383fd6bdfae5f9e9f08.js?body=1" for 127.0.0.1 at 2015-11-01 13:09:56 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 13:12:52 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 342ms (Views: 340.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-377105117be60a1edf89fd1af864d5a9720f33c5e39620bff1d8f16b1c68fdae.js?body=1" for 127.0.0.1 at 2015-11-01 13:12:52 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 13:13:25 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 386ms (Views: 385.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-690c9e68e53876f0565c6f23a66ba1f8245ecbd25a1748fbf82b43d86ef62002.js?body=1" for 127.0.0.1 at 2015-11-01 13:13:25 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 13:13:43 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 357ms (Views: 356.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-969bff95add3654e1a57c32becfc33a69c392ff3b313e795551d57e6f2b7ab13.js?body=1" for 127.0.0.1 at 2015-11-01 13:13:43 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 13:14:47 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 357ms (Views: 356.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-6cfd0ebef1057614162889438abc100443e6548e50d555f07ad26010792030ba.js?body=1" for 127.0.0.1 at 2015-11-01 13:14:47 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 13:16:30 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 324ms (Views: 323.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-e06e981a38e2396b29ee58283bf22a93fdb600eb405e3df471cda7e061a669b7.js?body=1" for 127.0.0.1 at 2015-11-01 13:16:30 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 13:17:37 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 287ms (Views: 285.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-58817227c0f86b0bf7492b1f08b52f4771f00f18f47a2c7485de0d48c47f186c.js?body=1" for 127.0.0.1 at 2015-11-01 13:17:38 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 13:18:25 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 371ms (Views: 370.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-e6833b576cbf3989c6831d82089b11d0af6ff3950b8b3a48369c240b2cd3d19c.js?body=1" for 127.0.0.1 at 2015-11-01 13:18:25 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 13:21:53 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 374ms (Views: 373.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-080b94ba4cf2b06ea9b516ecdf16efce911d178c75b472ed7f0869327346c1d6.js?body=1" for 127.0.0.1 at 2015-11-01 13:21:54 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 13:22:06 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 317ms (Views: 316.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-3c882af7c0b27312fb8a23a9da0dc9049a280c7b24c47249510ad97a8b8bffc7.js?body=1" for 127.0.0.1 at 2015-11-01 13:22:07 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 13:22:14 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 153ms (Views: 151.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 13:22:41 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 334ms (Views: 333.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-3440b394368ad08d165e8b6e19a7f8bcce9d569f23d96b505699109fc0395e65.js?body=1" for 127.0.0.1 at 2015-11-01 13:22:41 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 13:22:52 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 320ms (Views: 319.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-93e6e1f9104ea362cab27c8f1af03d704639ccde76bc7fb955080096092bcd8e.js?body=1" for 127.0.0.1 at 2015-11-01 13:22:53 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 13:24:34 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 444ms (Views: 443.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-c7ab26f0d8a3117e2b8f6f956bef01c6b577ae0746b35f9a45316095b5d97bc3.js?body=1" for 127.0.0.1 at 2015-11-01 13:24:34 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 13:24:58 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 352ms (Views: 351.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-cbc7feff5c020b3991b33e008e45de2cbfb35212e5cb9202298cb223c6781d8a.js?body=1" for 127.0.0.1 at 2015-11-01 13:24:58 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 13:25:19 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 371ms (Views: 369.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-13a378d2a11339b62e854e429cf4ec93da0bbfa6152281bc5558ab39e33dcad2.js?body=1" for 127.0.0.1 at 2015-11-01 13:25:19 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 13:25:34 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 354ms (Views: 352.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-c2f779990734c5ab08aaacca6a2f0cf16b00db0e9191c8b07cdb297c57de4690.js?body=1" for 127.0.0.1 at 2015-11-01 13:25:34 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 13:26:09 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 331ms (Views: 330.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-c8ee373a12e4a5bcdaa52ddbcb0ab7e017b7a0dcf60a2efc058c759e14909bca.js?body=1" for 127.0.0.1 at 2015-11-01 13:26:10 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 13:26:21 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 328ms (Views: 327.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-b7e16801e893d5ff9bb8bc015f2fbebcd7eb54fc5236cf13e08aa764a8620a7e.js?body=1" for 127.0.0.1 at 2015-11-01 13:26:21 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 14:08:54 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 194ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (SyntaxError: [stdin]:27:3: unexpected ,):
+    3: <head>
+    4:   <title>Ivt</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+    9: <body>
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___1732070806096066560_33117640'
+
+
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.0ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (21.0ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (13.6ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (26.4ms)
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 14:09:09 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 178ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (SyntaxError: [stdin]:27:3: unexpected ,):
+    3: <head>
+    4:   <title>Ivt</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+    9: <body>
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___1732070806096066560_33117640'
+
+
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.8ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.5ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (23.3ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (13.4ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (26.2ms)
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 14:09:29 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 356ms (Views: 355.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-4e37e3a56461537515a5b8f527e3a5ae7ee44cffd645ecd3466e1b036578c8ae.js?body=1" for 127.0.0.1 at 2015-11-01 14:09:30 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 14:14:41 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 314ms (Views: 313.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-e3202dcee62f0c39612c0ae50f59152e95a3b13080e89351fa187b07b990be49.js?body=1" for 127.0.0.1 at 2015-11-01 14:14:41 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 14:14:48 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 295ms (Views: 294.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-0e71a587c22348ff19e0bee4b29164591b2d076c29b4302bfdecebdba640e6fa.js?body=1" for 127.0.0.1 at 2015-11-01 14:14:48 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 14:14:58 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 293ms (Views: 292.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-0355139f6966b5675e36930ea8143e7ec5dae50853e4c6504e8a9636705025be.js?body=1" for 127.0.0.1 at 2015-11-01 14:14:58 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 14:18:24 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1588ms (Views: 1587.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-fc753f8401163c8146e5a7f3089bb2238015fb60e74e2252f977bee911e32ee4.css?body=1" for 127.0.0.1 at 2015-11-01 14:18:26 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 14:18:47 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1684ms (Views: 1683.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-0041e39038ce4afa61d9d8aa936bdcb73185b8d3627547e917688c4b0c962c78.css?body=1" for 127.0.0.1 at 2015-11-01 14:18:49 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 14:21:58 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 127ms (Views: 126.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 14:23:19 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 123ms (Views: 122.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 14:23:42 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 147ms (Views: 145.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 14:25:00 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 112ms (Views: 111.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 14:25:54 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1665ms (Views: 1664.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-1798211ef1d53dfa5e3daa816a719119fc730b89d6d76fbeab0505a93dc3d8bd.css?body=1" for 127.0.0.1 at 2015-11-01 14:25:56 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 14:26:36 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 123ms (Views: 122.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 14:28:04 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 129ms (Views: 128.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 14:28:57 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 1899ms (Views: 1898.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-37eafbd16e04a6e24c4e10aa4baa638f5f4fbdc6611c463fcf4c1274de09a3bc.css?body=1" for 127.0.0.1 at 2015-11-01 14:28:59 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 14:29:10 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1852ms (Views: 1851.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-7c38d891bd1cf9184bdbc9b243d73ebe60d1c7aa72a91730dc4e4e2e037dc16f.css?body=1" for 127.0.0.1 at 2015-11-01 14:29:12 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 15:54:16 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 2309ms (Views: 2302.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/Chart.self-bbdeb891cf9fc5749b6f8ba5afa87e0d92e280b3ef6b28fb88ba878734829eaf.js?body=1" for 127.0.0.1 at 2015-11-01 15:54:19 +0300
+
+
+Started GET "/assets/excanvas.self-9218244a85db27fefc81711876fd4c4214426c4135f37f50e8963cec71475749.js?body=1" for 127.0.0.1 at 2015-11-01 15:54:19 +0300
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for 127.0.0.1 at 2015-11-01 15:54:19 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 16:03:55 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 463ms (Views: 461.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-67b2640d01ecc85a23a315f020a58cf16c1c0ac529feae11dcb0904dfd58e872.js?body=1" for 127.0.0.1 at 2015-11-01 16:03:56 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 16:15:37 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 2154ms (Views: 2153.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-d68c7a2d492587404305fb9182e0e1b1908866568be75ee7a11445347cf055ad.css?body=1" for 127.0.0.1 at 2015-11-01 16:15:40 +0300
+
+
+Started GET "/assets/lab_one.self-7bc55cc80ba2d3f65ebec592febd1486f49beb435252d7f37e01b2cb2fa6a45e.js?body=1" for 127.0.0.1 at 2015-11-01 16:15:40 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 16:16:00 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1759ms (Views: 1758.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-913fb37cd63612b2f60c37fcc4428d2f98e7e6f5ad0f18f3603ebfaf46ecaf7b.css?body=1" for 127.0.0.1 at 2015-11-01 16:16:02 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 16:16:36 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1836ms (Views: 1835.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-d81f65666a2d9282931d2f2704e58a5c8228708ccd72a255059c25330be1625b.css?body=1" for 127.0.0.1 at 2015-11-01 16:16:38 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 16:20:56 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 344ms (Views: 343.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-6870c307f30a61ee4df54f2443ccd54b313c15e1b9f82f148321b5d45e11540b.js?body=1" for 127.0.0.1 at 2015-11-01 16:20:57 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 16:21:35 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 426ms (Views: 425.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-62c7c63c26068320ce20943262a036061e95247dd4374188f5276004893224b6.js?body=1" for 127.0.0.1 at 2015-11-01 16:21:35 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 16:21:52 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1912ms (Views: 1911.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-640bf56c7c32dae4223aa46eaa386f1da6e78cfa73459eb2b1b867b554050f73.css?body=1" for 127.0.0.1 at 2015-11-01 16:21:54 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 16:23:20 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 341ms (Views: 340.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-c2f241a9e2eedb7e55c7b5354a69c24307ae79b96bcc21cc0cd8c85b41044eb7.js?body=1" for 127.0.0.1 at 2015-11-01 16:23:21 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 16:23:35 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 386ms (Views: 385.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-13d32d21ddd5fad7d9165843377d540cc58456601e32b94a98516b9a78b009b3.js?body=1" for 127.0.0.1 at 2015-11-01 16:23:35 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 16:24:03 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1824ms (Views: 1823.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-74db66cf840a738296b991558a4e0b074e365b20c4070c9b013859a4938ce0df.css?body=1" for 127.0.0.1 at 2015-11-01 16:24:04 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 16:24:12 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1747ms (Views: 1746.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-0f8f98b91ac9bc53000dd86930dfcd29c3b8ca215f6bc4872b81d273a88aa609.css?body=1" for 127.0.0.1 at 2015-11-01 16:24:14 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 16:24:38 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1705ms (Views: 1704.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-2d1a942c4e99faa28438d99ae70072ac070756196371009f39022cf285496ab3.css?body=1" for 127.0.0.1 at 2015-11-01 16:24:40 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 20:41:02 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 1607ms (Views: 1590.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-d469d3209534745ea615ca9fd907dacdf234164054d34e656c847ebd88792c60.js?body=1" for 127.0.0.1 at 2015-11-01 20:41:04 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 20:41:59 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 473ms (Views: 472.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-41a4ab96045568b8d5045272b258d94bb14316b4ee97236b56fab8bbdb5e26ed.js?body=1" for 127.0.0.1 at 2015-11-01 20:41:59 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 20:42:37 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 404ms (Views: 403.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-abefb649ecbafba3612e56b23ddbf2d89ed974ebee5011788169e194bce62f15.js?body=1" for 127.0.0.1 at 2015-11-01 20:42:38 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 20:42:57 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 364ms (Views: 363.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-e671e6c83d98cfa5aa6ccf83f272e824ea07bbfa5faad0969ed783308ab5240b.js?body=1" for 127.0.0.1 at 2015-11-01 20:42:58 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 20:45:31 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 359ms (Views: 358.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-719b54e346675d4164a0da7a9424a24c7381ce4a8a4ab384e6c13babffb790db.js?body=1" for 127.0.0.1 at 2015-11-01 20:45:31 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 21:08:27 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 350ms (Views: 349.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-510f9b6c8e248dccf3f579933976fdd7ccfc217e6614e514d1be9c63bccc0ad7.js?body=1" for 127.0.0.1 at 2015-11-01 21:08:27 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 21:08:40 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 373ms (Views: 372.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-b61de0a3ece87494a13818965f1aab47d57896acc42ba94963669176ae5e595e.js?body=1" for 127.0.0.1 at 2015-11-01 21:08:40 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 21:40:20 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 386ms (Views: 385.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-85a4acc954b5f09a9b440641fea766306fa43da6102bdf664f5b08f940674da8.js?body=1" for 127.0.0.1 at 2015-11-01 21:40:21 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 21:50:29 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 225ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (SyntaxError: [stdin]:8:8: unexpected number):
+    3: <head>
+    4:   <title>Ivt</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+    9: <body>
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___3413800548777373647_35978260'
+
+
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.9ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (11.3ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (44.4ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (18.0ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (47.1ms)
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 21:51:02 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 387ms (Views: 386.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-835a5a01b1331985c388774806189fcabee9d82153e9f18dfa39a6903763eaa2.js?body=1" for 127.0.0.1 at 2015-11-01 21:51:02 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 22:21:11 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 380ms (Views: 379.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-baa83d780ccf0fedd89db288033d1bdf1797ee36507d9b3f839e8ec7d8712b0d.js?body=1" for 127.0.0.1 at 2015-11-01 22:21:11 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 22:21:39 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 373ms (Views: 372.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-4a41be4fea8bdee575d4a9e6863014f8de56edd28aae4e6f9bb06f41028108d9.js?body=1" for 127.0.0.1 at 2015-11-01 22:21:39 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 22:21:50 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 343ms (Views: 342.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-5fbc695f24fdbd3e544a84b04a91590306416995ffb66afa5a39dd6236803d55.js?body=1" for 127.0.0.1 at 2015-11-01 22:21:50 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 22:22:55 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 138ms (Views: 137.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 22:23:08 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 222ms (Views: 221.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 23:04:55 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 3053ms (Views: 3045.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-b6e497103bfc18ff9a545fb82192b02461f504221342e0164817ec9b17ab319d.css?body=1" for 127.0.0.1 at 2015-11-01 23:04:58 +0300
+
+
+Started GET "/assets/jquery.flot.self-c14ce1ecd2ce4c63225ea890baab32a8844dc3a9934549b5e9eb1161587a5ec6.js?body=1" for 127.0.0.1 at 2015-11-01 23:04:58 +0300
+
+
+Started GET "/assets/jquery.flot.resize.self-75fb517c67caae33f5aea9880c10df2e4ddf7445480fbac96822be335943732b.js?body=1" for 127.0.0.1 at 2015-11-01 23:04:58 +0300
+
+
+Started GET "/assets/lab_one.self-378533180d4d9f9f06409cd5eae8a8a49d50be7ac967e2e9f0bbea807f5f3629.js?body=1" for 127.0.0.1 at 2015-11-01 23:04:58 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-01 23:07:31 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 424ms (Views: 423.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-ccdd5fd76126072c59d3ae3ac9242237a914454f77a708886a4741d87d110e7b.js?body=1" for 127.0.0.1 at 2015-11-01 23:07:31 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-02 00:58:19 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 369ms (Views: 368.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-17243dab6f19fb49276ee1d155c133ec2bffd0a4b9d271fe3906d339486caa0f.js?body=1" for 127.0.0.1 at 2015-11-02 00:58:20 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-02 00:59:57 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 209ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (SyntaxError: [stdin]:7:14: unexpected ,):
+    3: <head>
+    4:   <title>Ivt</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+    9: <body>
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb__2800024754416415249_48131880'
+
+
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.3ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (22.4ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (13.0ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (27.5ms)
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-02 01:01:15 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 356ms (Views: 355.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-fb26207971a3db97dfc9ae2342e245699b4af13794979a5978e2efdf469450f6.js?body=1" for 127.0.0.1 at 2015-11-02 01:01:15 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-02 01:01:48 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 369ms (Views: 368.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-cbdf9688eeb4b9665b7d399788f2f5d3b67795cdf07a7e70c3aa28facdd8d201.js?body=1" for 127.0.0.1 at 2015-11-02 01:01:49 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-02 01:02:07 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 337ms (Views: 336.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-d76fe77aa8b71904000bfe1fddcd5a07944f1e7fca85c1624f8c55e04728b66b.js?body=1" for 127.0.0.1 at 2015-11-02 01:02:08 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-02 01:02:33 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 330ms (Views: 329.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-1e8b8b5c6f237dd4089a31d43c28adb9949739448d0b084161e120658bb6a6b9.js?body=1" for 127.0.0.1 at 2015-11-02 01:02:34 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-02 01:11:21 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 378ms (Views: 377.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-3b66e91a76cea8dffa86f67265a9ef9882c2e0eb5452f66509fa55b056022989.js?body=1" for 127.0.0.1 at 2015-11-02 01:11:21 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-02 01:12:30 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 174ms (Views: 173.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-02 01:13:44 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 495ms (Views: 494.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-467f2ba46db0726c14f9003918b75c6357c0888c39dcd0d1a5f0e4d934973268.js?body=1" for 127.0.0.1 at 2015-11-02 01:13:45 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-02 01:14:51 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 369ms (Views: 368.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-91466dca77d5062f6e23430bdb4038a133d12575e53f4c39a5e5dd571948965d.js?body=1" for 127.0.0.1 at 2015-11-02 01:14:51 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-02 01:18:19 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 344ms (Views: 343.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-2162cfa04c17c4a8976350f7d4800af4cd0c366cd10fcdcaf295eb561de58163.js?body=1" for 127.0.0.1 at 2015-11-02 01:18:19 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-02 01:20:09 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 360ms (Views: 359.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-8016d2738fc704bbce1a798ae19a54245ed5f8b4d56141c94a18f5f770ac97e5.js?body=1" for 127.0.0.1 at 2015-11-02 01:20:09 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-02 01:23:54 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 379ms (Views: 378.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-7deb360bc8448010331ef1ffe74c6ef92f42ff80791684a625e82915badcbe8c.js?body=1" for 127.0.0.1 at 2015-11-02 01:23:54 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-02 01:24:21 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 381ms (Views: 379.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-d4dec75cc0868fc107015af373cfc313204dc3c95831d33297633586f97047e8.js?body=1" for 127.0.0.1 at 2015-11-02 01:24:22 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-02 01:25:05 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 367ms (Views: 366.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-a321bf36c242b439df910fa3602b05f3c679f707b9a76e31d8b552f39e4709cf.js?body=1" for 127.0.0.1 at 2015-11-02 01:25:06 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-02 01:26:00 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 361ms (Views: 360.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-7300c4230839983bba9902b3f2e420600da55330a573414f498ea09b71e496db.js?body=1" for 127.0.0.1 at 2015-11-02 01:26:00 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-02 01:29:00 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1873ms (Views: 1872.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-fa6d971e2df33aa0be9e330147cc5a75b3debbe7a4897a1f70d85a51e9c51191.css?body=1" for 127.0.0.1 at 2015-11-02 01:29:02 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-02 01:29:35 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 156ms (Views: 155.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-02 01:29:54 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1771ms (Views: 1770.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-5189050d5c1c3a71da164cfbe2f810cf342115d120a22e5f1b973118eb9b2fd8.css?body=1" for 127.0.0.1 at 2015-11-02 01:29:56 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-02 01:31:38 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 437ms (Views: 435.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-04b9dc7b4c426b5b4312bc2f160c6585e7e8acdf093142aa8c2360ef72a374eb.js?body=1" for 127.0.0.1 at 2015-11-02 01:31:39 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-02 01:31:54 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 414ms (Views: 413.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-02 14:50:12 +0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/railties-4.2.1/lib/rails/templates/rails/welcome/index.html.erb (2.6ms)
+Completed 200 OK in 65ms (Views: 44.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-02 14:50:16 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 995ms (Views: 994.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-02 15:00:31 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2121ms (Views: 2120.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-fe69df851aa5d29136d60d79c5a7dbfd15386af98bc7b718ce86d08a32bda596.js?body=1" for 127.0.0.1 at 2015-11-02 15:00:33 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-02 15:03:29 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 445ms (Views: 444.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-f2504c1cab9581fb0d312dae20027745a62678f434495ed5a5b8b97f5951d2b0.js?body=1" for 127.0.0.1 at 2015-11-02 15:03:30 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-02 15:03:46 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 367ms (Views: 366.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-e4fbfc8bc22a52ec3fb4d84d6ba49ecf8cdaee3434cfe31e3cba6fca2cde6b4d.js?body=1" for 127.0.0.1 at 2015-11-02 15:03:46 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-02 15:06:23 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 375ms (Views: 374.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-178a3551b5ed050508a1bd8e40a48fd0d2aac78f10f32a44ddcf268be302f312.js?body=1" for 127.0.0.1 at 2015-11-02 15:06:24 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-02 15:08:08 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 152ms (Views: 150.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-02 15:08:31 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 160ms (Views: 159.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-02 15:09:18 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 392ms (Views: 390.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-e820e5bab5de1ddd1acd60d0190855400e76242a1c2dc63f71999122d9a4aa38.js?body=1" for 127.0.0.1 at 2015-11-02 15:09:18 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-02 15:10:06 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 391ms (Views: 390.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-bdbbabaf5bf1ea8184c3f99729dc94ea0dc0fc3eba9996633ad195fc52cf16ff.js?body=1" for 127.0.0.1 at 2015-11-02 15:10:07 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-02 15:10:31 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 459ms (Views: 458.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-566b538fd9f387927208dccdc366706de159d5990cada08845c2b2d1d3130911.js?body=1" for 127.0.0.1 at 2015-11-02 15:10:32 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-02 15:10:50 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 420ms (Views: 418.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-7c074292a8dbcd52e7ed316ccd777a07e7cffa652b6c7fe440ec6bab5de54563.js?body=1" for 127.0.0.1 at 2015-11-02 15:10:50 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-02 15:11:41 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 374ms (Views: 372.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-e7e58c157afbdec6926490a7734088f9ebd2de31d25f46533ae56015ef2394e2.js?body=1" for 127.0.0.1 at 2015-11-02 15:11:41 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-02 15:17:45 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 381ms (Views: 380.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-80ce9321d0668894d6eb27d94f9538aad32f57ebc0c5fae2e44983c446846575.js?body=1" for 127.0.0.1 at 2015-11-02 15:17:46 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-02 15:21:53 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 368ms (Views: 367.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-e75b1cec427382ce31b0f57de1e1118302430f66c2d0534834e4ab12002c4dfe.js?body=1" for 127.0.0.1 at 2015-11-02 15:21:53 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-02 15:22:08 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 386ms (Views: 385.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-aa847f2f6f6a1d0991b5894e40428e826aff244b84d93959294b446e5b8d86f1.js?body=1" for 127.0.0.1 at 2015-11-02 15:22:09 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-02 15:22:23 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 468ms (Views: 467.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-44069df239e20c2ab188012f37ec1f501ffe5fce496df8b588b62985b75d257d.js?body=1" for 127.0.0.1 at 2015-11-02 15:22:23 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-02 15:24:31 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 409ms (Views: 407.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-13c63342c86d9fed536db32be210c6ebede2f20ad00701c6189bb93fa05a1ac9.js?body=1" for 127.0.0.1 at 2015-11-02 15:24:31 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-02 15:24:50 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 432ms (Views: 431.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-f27f4f9d0ee29fb236e2bea4befd09547831c88dc5635284d01b7ae78935739f.js?body=1" for 127.0.0.1 at 2015-11-02 15:24:50 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-02 15:26:40 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 386ms (Views: 385.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-bca86e94dd3e77672f72ec60ed34c8871309c66937241f9d6ecf0db00aabec7a.js?body=1" for 127.0.0.1 at 2015-11-02 15:26:41 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-02 15:27:01 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 364ms (Views: 363.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-e340d4a60af20413589f6ac126d09c9279cb5372ababc1e399b964655cd8df91.js?body=1" for 127.0.0.1 at 2015-11-02 15:27:02 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-02 15:29:04 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 397ms (Views: 396.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-459892299b8afbfc862e134049ed235b9d1d100d369cfceb3347e7796c77c49a.js?body=1" for 127.0.0.1 at 2015-11-02 15:29:05 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-02 15:30:49 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 413ms (Views: 412.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-6610b4a9bd4fce9a9bc217c9a7a6ddfb897f62173c61157b65601095f52d9362.js?body=1" for 127.0.0.1 at 2015-11-02 15:30:50 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-02 15:32:00 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 358ms (Views: 357.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-1174246f643bd0d043f8ea5bd4f7ded141f989fc8c2d8c49c401c28ad3900834.js?body=1" for 127.0.0.1 at 2015-11-02 15:32:01 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-02 15:32:10 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 394ms (Views: 393.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-9c95982431a8d11a1d3189c085dc712a6368ebb3609a4127a60f7253cd2b6e2b.js?body=1" for 127.0.0.1 at 2015-11-02 15:32:10 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-02 15:32:26 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 424ms (Views: 423.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-65bed48a034b3b9f08ea2cfe0b25ac26b4251371b76a8c21956f4b2f82b6a57e.js?body=1" for 127.0.0.1 at 2015-11-02 15:32:27 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-02 15:37:08 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 364ms (Views: 363.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-be086529958fa4515a1d433c53e4a43f07e7e38b94fcfa706068c4bfb9d60816.js?body=1" for 127.0.0.1 at 2015-11-02 15:37:09 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-02 15:37:29 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 358ms (Views: 357.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-ed60fdbd3fec4e6720ba2cc3eeb413cd4cb5834c4f75f4dfa1085c1f67d9fced.js?body=1" for 127.0.0.1 at 2015-11-02 15:37:29 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-02 15:41:38 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 231ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (SyntaxError: [stdin]:62:1: unexpected indentation):
+    3: <head>
+    4:   <title>Ivt</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+    9: <body>
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___1704101486592384635_42751700'
+
+
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (13.8ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.8ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (32.9ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (15.3ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (43.2ms)
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-02 15:42:04 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 200ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (SyntaxError: [stdin]:62:1: unexpected indentation):
+    3: <head>
+    4:   <title>Ivt</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+    9: <body>
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___1704101486592384635_42751700'
+
+
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.8ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.5ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (24.1ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (14.1ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (27.4ms)
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-02 15:42:41 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 209ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (SyntaxError: [stdin]:62:1: unexpected indentation):
+    3: <head>
+    4:   <title>Ivt</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+    9: <body>
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___1704101486592384635_42751700'
+
+
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.3ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.5ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (24.4ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (13.8ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (27.1ms)
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-02 15:43:10 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 210ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (SyntaxError: [stdin]:62:1: unexpected indentation):
+    3: <head>
+    4:   <title>Ivt</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+    9: <body>
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___1704101486592384635_42751700'
+
+
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.3ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (24.2ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (14.2ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (27.5ms)
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-02 15:43:48 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 391ms (Views: 390.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-9fb8cf8572984b4b86d524a094418f344c7bb316bd6e0055918f7d182aa7f1b3.js?body=1" for 127.0.0.1 at 2015-11-02 15:43:49 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-02 15:44:48 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 398ms (Views: 397.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-edca1934fb7e30099c0f8e018a2940de367c8d9b985a92dc306e48698e0d9b7f.js?body=1" for 127.0.0.1 at 2015-11-02 15:44:48 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-02 15:50:52 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 440ms (Views: 439.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-43e75844494eca975d3b5c5e9cd51d0cdc61fab916e3a57a236cf2b1a370df03.js?body=1" for 127.0.0.1 at 2015-11-02 15:50:53 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-02 15:51:23 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 385ms (Views: 384.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-42c8b300b49fc7b383194f1ef3fefb835ee4437f8dd3a677de7f4e52abcf419f.js?body=1" for 127.0.0.1 at 2015-11-02 15:51:24 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-02 21:59:46 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 429ms (Views: 427.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-c3e90394a23be52aa50eb917ec81ee3a9cf2af4b010d0db1912b28ef912d12f8.js?body=1" for 127.0.0.1 at 2015-11-02 21:59:46 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-02 22:00:22 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 437ms (Views: 436.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-5651bec6d2321379aef43d497e1a0875188588264672ba5ab6e5fca1647b6be8.js?body=1" for 127.0.0.1 at 2015-11-02 22:00:22 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-02 22:01:01 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 431ms (Views: 430.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-1ed4ee5e118ded3c0da977374e51e8e69f52c3917c4634f5a22da091dd2fe68a.js?body=1" for 127.0.0.1 at 2015-11-02 22:01:01 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-02 22:03:03 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 439ms (Views: 438.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-e0a03727887c9ae0bf03d158652859c573ff6e9196352fd4a09957e48ffae408.js?body=1" for 127.0.0.1 at 2015-11-02 22:03:04 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-02 22:08:52 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 422ms (Views: 420.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-69f91bd5122dd7fc4c88cbb2347b0830244144063fc8889937580633d59a412a.js?body=1" for 127.0.0.1 at 2015-11-02 22:08:53 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-02 22:11:22 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 409ms (Views: 407.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-e181cbdaf5427c01c10990c307cc31ae663bfe64f83676d8ae3eb337ba99bc69.js?body=1" for 127.0.0.1 at 2015-11-02 22:11:23 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-02 22:29:44 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 458ms (Views: 456.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-9da57affa452274ced8f961b4f3e93f27d98ad005b96abacf3d1686c6c91f52d.js?body=1" for 127.0.0.1 at 2015-11-02 22:29:45 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-02 22:30:04 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 402ms (Views: 401.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-53ff5b296ee3ea1319a12b0ede0e0e2a2e1c274a09201ff67c6f2ee7e78a8396.js?body=1" for 127.0.0.1 at 2015-11-02 22:30:05 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-02 22:33:23 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 243ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (SyntaxError: [stdin]:110:13: unexpected end of input):
+    3: <head>
+    4:   <title>Ivt</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+    9: <body>
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___1704101486592384635_42751700'
+
+
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (14.0ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.4ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (30.3ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (13.8ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (26.8ms)
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-02 22:33:49 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 223ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (SyntaxError: [stdin]:110:13: unexpected end of input):
+    3: <head>
+    4:   <title>Ivt</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+    9: <body>
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___1704101486592384635_42751700'
+
+
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.8ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.5ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (23.9ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (13.5ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (26.8ms)
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-02 22:35:56 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 206ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (SyntaxError: [stdin]:109:13: unexpected end of input):
+    3: <head>
+    4:   <title>Ivt</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+    9: <body>
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___1704101486592384635_42751700'
+
+
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.6ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.5ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (24.6ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (13.6ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (26.5ms)
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-02 22:36:12 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 443ms (Views: 442.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-c14c60165d85fac8022a88ffddcb601a2c6e020ad979fb71220f11dab7eedfe1.js?body=1" for 127.0.0.1 at 2015-11-02 22:36:12 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-02 22:48:34 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 427ms (Views: 426.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-b1112545863f9bd7c3aa933f540b06a90db1ef1e8f1387210090a1b71ea3bd6f.js?body=1" for 127.0.0.1 at 2015-11-02 22:48:34 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-02 22:50:27 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 412ms (Views: 411.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-2b870798229e70013c35a71d79e0bcb356fd5f639781ba3fafc7f1780d84af54.js?body=1" for 127.0.0.1 at 2015-11-02 22:50:27 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-02 22:51:00 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 410ms (Views: 409.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-276c0eb935aaf85b10bcd50233a958e1a569aa3a67398a5f6649659bb6d01776.js?body=1" for 127.0.0.1 at 2015-11-02 22:51:01 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-02 22:51:43 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 201ms (Views: 199.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-02 22:51:54 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 419ms (Views: 418.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-02 22:53:14 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 400ms (Views: 399.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-c9a2f06397e82855766e010a9d2c5b569d55aca39edcb00f5067f44998b018c5.js?body=1" for 127.0.0.1 at 2015-11-02 22:53:15 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-02 22:53:52 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 162ms (Views: 161.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-02 22:54:52 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 273ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (SyntaxError: [stdin]:122:1: unexpected indentation):
+    3: <head>
+    4:   <title>Ivt</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+    9: <body>
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___1704101486592384635_42751700'
+
+
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.2ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (24.2ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (14.3ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (27.5ms)
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-02 22:55:09 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 439ms (Views: 438.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-03f2815c898a8b49253ea617188434cb14016c6a10137ea60b9068b25ec191df.js?body=1" for 127.0.0.1 at 2015-11-02 22:55:10 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-02 22:57:58 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 476ms (Views: 475.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-e2468fcd6486a86cd569a3b9915e902ecaacb0b467856f98a9b98f85c18fd64b.js?body=1" for 127.0.0.1 at 2015-11-02 22:57:59 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-02 23:00:07 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 455ms (Views: 454.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-7b236d4d070e7893b43aa883c43b37281409ca5e4bdfb0dd90099c0ed093190a.js?body=1" for 127.0.0.1 at 2015-11-02 23:00:08 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-02 23:02:21 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 433ms (Views: 432.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-a969c0410ee34b8d47b573635e6fbb45629eb996408ab553932bd3d175a5ce42.js?body=1" for 127.0.0.1 at 2015-11-02 23:02:21 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-02 23:14:00 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 475ms (Views: 474.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-6306b71dee87e8d6916c5a235fb6a30ca659207620bf731fa96ac810bd95a976.js?body=1" for 127.0.0.1 at 2015-11-02 23:14:00 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-02 23:14:33 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 422ms (Views: 421.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-3e4e6bbe9bd5bf038aaaa7f999515458f5fcc40deefb0c1a9461f0d029834fd3.js?body=1" for 127.0.0.1 at 2015-11-02 23:14:33 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-02 23:28:09 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 165ms (Views: 164.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/1%5D" for 127.0.0.1 at 2015-11-02 23:31:17 +0300
+
+ActionController::RoutingError (No route matches [GET] "/1%5D"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/oleg/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/oleg/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/oleg/.rvm/rubies/ruby-2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.4ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (22.4ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (62.4ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (20.1ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (40.2ms)
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-02 23:31:20 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 162ms (Views: 161.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-02 23:31:39 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 168ms (Views: 167.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-02 23:31:57 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 171ms (Views: 170.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-02 23:34:47 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 2335ms (Views: 2334.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-bcd3e96209ac9465e7f92c8ce2f47c3c6daa0c115dea1d87b0bfea2ecafef329.css?body=1" for 127.0.0.1 at 2015-11-02 23:34:50 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-02 23:36:10 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 203ms (Views: 202.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-02 23:37:43 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 1874ms (Views: 1873.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-3036751cefafa0d4e4934c8080367f7ce5b9a556f821edb8ba3b4103d83511a7.css?body=1" for 127.0.0.1 at 2015-11-02 23:37:44 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-02 23:38:09 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1986ms (Views: 1984.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-9fd485d937faf53f0d6da69daf2457b3a2c264f717f094ca20beff3a6caae306.css?body=1" for 127.0.0.1 at 2015-11-02 23:38:11 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-02 23:38:31 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 2042ms (Views: 2041.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-4a3633355ceb5f414a714692e26649fc0643eba051e755450332b33b38f86dc0.css?body=1" for 127.0.0.1 at 2015-11-02 23:38:33 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-02 23:39:05 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 189ms (Views: 187.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-02 23:39:34 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 175ms (Views: 174.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-02 23:39:43 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1866ms (Views: 1865.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-c8932ac425ad1f12ee65aa39ae769fc6917f627d6da0415226067d7412b1d8d2.css?body=1" for 127.0.0.1 at 2015-11-02 23:39:45 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-02 23:41:01 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 451ms (Views: 450.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-9d2d095adfbbe22511e82ae6259c08afbafe852afd225ad54698930388b1e321.js?body=1" for 127.0.0.1 at 2015-11-02 23:41:02 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-02 23:41:25 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 486ms (Views: 485.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-02 23:45:00 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1940ms (Views: 1939.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-fb9ba06965911c1193bd68d23997dca6521b430c708936a688f988c6d904bb2b.css?body=1" for 127.0.0.1 at 2015-11-02 23:45:02 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-02 23:45:33 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1846ms (Views: 1844.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-8cb7f81b9a6c7b6f79682af9084bb81d9e5a62022f366de6f5ff835897e47f17.css?body=1" for 127.0.0.1 at 2015-11-02 23:45:35 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-02 23:45:47 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1869ms (Views: 1868.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-03a367264c747c2466465cb9570c9467651ebf0e857cb8202168551bdee5cbeb.css?body=1" for 127.0.0.1 at 2015-11-02 23:45:49 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-02 23:45:58 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2042ms (Views: 2041.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-a66225f230eec8afac0a5a329d00a3ad0d0da6df9de782fb3a69b0da1befe95c.css?body=1" for 127.0.0.1 at 2015-11-02 23:46:00 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-02 23:46:20 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 184ms (Views: 183.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-02 23:47:43 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 420ms (Views: 419.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-611e855e50b46246329f6abbf699608fb3c43f7721a5f2eca34c581935608c98.js?body=1" for 127.0.0.1 at 2015-11-02 23:47:44 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-02 23:48:35 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 448ms (Views: 447.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-70bb3620bbaa5f6f32c546a385348531a18e230308ce052b1e54dc964417b833.js?body=1" for 127.0.0.1 at 2015-11-02 23:48:36 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-02 23:49:36 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2153ms (Views: 2151.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-b2dfd4916d4f74d16780ef76a8732daae12715b15fa4677bec3d503e61de9e1f.css?body=1" for 127.0.0.1 at 2015-11-02 23:49:38 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-02 23:50:07 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 460ms (Views: 459.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-b41b214b654ef496e4bc3daf3deaf6ade104c20baff71ffd49538762225043c7.js?body=1" for 127.0.0.1 at 2015-11-02 23:50:07 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-02 23:50:14 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 167ms (Views: 166.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-02 23:50:19 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 152ms (Views: 151.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-02 23:50:51 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 432ms (Views: 431.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-74b541510fd5bf7ada2c5de7c4b2b99b2ca555307302e5f02057341100c07ee0.js?body=1" for 127.0.0.1 at 2015-11-02 23:50:51 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-02 23:51:01 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 406ms (Views: 405.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-ddbc92e33583ce3d59e2c85ee4b95bccedb649cef4a42f3a9904cdbe45c0ae40.js?body=1" for 127.0.0.1 at 2015-11-02 23:51:01 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-02 23:51:13 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 464ms (Views: 463.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-721fa804f3ae0d7e62deaa3bfddf52b3360c9cebfb3b9d7c0e77d7e0be711c51.js?body=1" for 127.0.0.1 at 2015-11-02 23:51:13 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-02 23:51:20 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 413ms (Views: 413.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-231081327122b3cf44c15c8c0859e54c859bf369d08ccc4449a4b9e54e994aaa.js?body=1" for 127.0.0.1 at 2015-11-02 23:51:21 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-02 23:51:27 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 163ms (Views: 161.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-03 00:03:28 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 454ms (Views: 453.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-fd6fb62484d02e7024046893643a64d14f3d51694d0519ee1ff199a01032952d.js?body=1" for 127.0.0.1 at 2015-11-03 00:03:28 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-03 00:05:01 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 431ms (Views: 430.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-8f20a78ce1a42fce8c83d14dfc035c422531a51e498535e12475e88919188266.js?body=1" for 127.0.0.1 at 2015-11-03 00:05:02 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-03 00:05:26 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 438ms (Views: 437.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-395f5e5634ea8dfbf7cf99e97b8852ebb9e7dc18998d3d46fab5a81c1b6cfc53.js?body=1" for 127.0.0.1 at 2015-11-03 00:05:27 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-03 00:09:11 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 442ms (Views: 441.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-4a3b596fc347f3964d9cb9bd610e66501253ed1513dec64588eaaa31bcd3d813.js?body=1" for 127.0.0.1 at 2015-11-03 00:09:12 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-03 00:10:13 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 428ms (Views: 427.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-f1d94e1528985a77022320b1afa90afeecca754cd999723bd3385013517d0e0c.js?body=1" for 127.0.0.1 at 2015-11-03 00:10:13 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-03 00:11:11 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 405ms (Views: 404.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-588b9a482a9f4fcadf9cb5005f7710702cfe4b4b8fe6c28cc99d5ec62b99765b.js?body=1" for 127.0.0.1 at 2015-11-03 00:11:12 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-03 00:11:25 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1848ms (Views: 1847.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-8b0854f830baf0551489aafba0435aba83f7711389958dff1f0594a9e058961f.css?body=1" for 127.0.0.1 at 2015-11-03 00:11:27 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-03 00:13:20 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2144ms (Views: 2143.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-07898ecee9941aa5f55ad5f75dd00bdf698308ec7a1e171e0f9e140b0a7ca570.css?body=1" for 127.0.0.1 at 2015-11-03 00:13:23 +0300
+
+
+Started GET "/assets/lab_one.self-e707d4ab7e918f66fc63ffab847d525b79058d8b6c0e9a29169e43815cf25b3e.js?body=1" for 127.0.0.1 at 2015-11-03 00:13:23 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-03 00:14:28 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 478ms (Views: 477.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-14d0577a0a0985ee9d4dd18e2b1e834a2d3c1e247a77d59edde309da812fa5e0.js?body=1" for 127.0.0.1 at 2015-11-03 00:14:29 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-03 00:14:39 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1788ms (Views: 1787.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-881c12ff1e1b2a61f264095d607403f8d86e317da9e9056eae3067fc3d283391.css?body=1" for 127.0.0.1 at 2015-11-03 00:14:40 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-03 00:15:39 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 226ms (Views: 224.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-03 00:16:20 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 159ms (Views: 158.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-03 00:24:59 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 416ms (Views: 415.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-8498ac54e58d8f342e21e1d0f5de34b44366ed3e186934b6a9ed886668aada2c.js?body=1" for 127.0.0.1 at 2015-11-03 00:24:59 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-03 00:30:59 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 408ms (Views: 406.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-bbd9de31d714b570aeb86605610d3f52f10c6cdba24d0622d3fefc639a29c3fa.js?body=1" for 127.0.0.1 at 2015-11-03 00:30:59 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-03 00:31:52 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 468ms (Views: 467.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-ca4040aa36bfc53036dba5726a2e9ecde7b79331edc0e89af951f282a7b32013.js?body=1" for 127.0.0.1 at 2015-11-03 00:31:53 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-03 00:50:01 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 670ms (Views: 662.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-8646e25e79d55598324eef73d6695d6799099117b316c659f566958921f2706c.js?body=1" for 127.0.0.1 at 2015-11-03 00:50:02 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-03 00:51:38 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2193ms (Views: 2191.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-76aaf439c575283df3d3c5f475f7bdcc710f549234496960b1a8ca3f6918a3c0.css?body=1" for 127.0.0.1 at 2015-11-03 00:51:40 +0300
+
+
+Started GET "/assets/lab_one.self-623e979e167a3e709579753fbc3f1f9941474d15b24283b26dbf70589f8bbbd1.js?body=1" for 127.0.0.1 at 2015-11-03 00:51:40 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-03 00:52:16 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 1770ms (Views: 1768.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-44cebfc8cb28908533521b6e2f4595c1f8aa56061e03fb4b902876725da5bc51.css?body=1" for 127.0.0.1 at 2015-11-03 00:52:18 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-03 00:53:02 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1833ms (Views: 1832.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-4c56eb0992a016608e7fb8b44f8d4afd9242efe9d644cdae23bd9f762f875288.css?body=1" for 127.0.0.1 at 2015-11-03 00:53:04 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-03 00:54:36 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 435ms (Views: 433.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-1ad11ae20fcf25575b031d062f531ccf30daa295315220e66d347daddd8c9b04.js?body=1" for 127.0.0.1 at 2015-11-03 00:54:37 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-03 00:57:14 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 433ms (Views: 432.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-e97031671511534f620001ced8439a541854b9502004e1eec3aaf58a88c48853.js?body=1" for 127.0.0.1 at 2015-11-03 00:57:14 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-03 11:45:44 +0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/railties-4.2.1/lib/rails/templates/rails/welcome/index.html.erb (3.0ms)
+Completed 200 OK in 69ms (Views: 44.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-03 11:45:48 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 924ms (Views: 922.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-03 11:52:29 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 6485ms (Views: 6483.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-d06554854de1cdcbe687a7550168011a97fd672719ae3d0c771bc3a15abc94df.css?body=1" for 127.0.0.1 at 2015-11-03 11:52:35 +0300
+
+
+Started GET "/assets/lab_one.self-9a45e72a6f669acec12d430c1b7cb4ccecd23995b1a13eb6e423062e4d6c5cae.js?body=1" for 127.0.0.1 at 2015-11-03 11:52:35 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-03 11:53:52 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 415ms (Views: 414.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-39ce8659fa6d87e974497361645bd714ee397bcfe1d9dca123a2cff65bb1fee0.js?body=1" for 127.0.0.1 at 2015-11-03 11:53:52 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-03 12:04:09 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 2000ms (Views: 1999.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-94218b9d1902d3bee90adf7d3db314a56076e231425c72c85451f5fd3cf9f67c.js?body=1" for 127.0.0.1 at 2015-11-03 12:04:11 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-03 12:09:20 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 443ms (Views: 441.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-03 12:11:43 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 391ms (Views: 390.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-f3aef065390a32e0f7f636bb4d7d86427847d09cad613967ab4d6730b058bbcd.js?body=1" for 127.0.0.1 at 2015-11-03 12:11:43 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-03 12:13:22 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 442ms (Views: 441.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-a94d4ac2e90cb7301560681b9d609d0fd187da72399523954c20e77a182fcc02.js?body=1" for 127.0.0.1 at 2015-11-03 12:13:23 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-03 12:14:23 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 454ms (Views: 453.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lab_one.self-45ba37be22f5bff06d5a3cbabd6d18811b2296118e6b1b50ef126fd7a32d01da.js?body=1" for 127.0.0.1 at 2015-11-03 12:14:24 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-03 12:31:09 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 202ms (Views: 201.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-03 12:31:46 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 24ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Invalid CSS after "@import "**/*"": expected selector or at-rule, was "#header{"):
+    2: <html>
+    3: <head>
+    4:   <title>Ivt</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/application.scss:18
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___897269261158658603_48280180'
+
+
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (16.5ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.7ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (43.5ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (24.1ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (55.5ms)
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-03 12:32:00 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Invalid CSS after "@import "**/*"": expected selector or at-rule, was "#header{"):
+    2: <html>
+    3: <head>
+    4:   <title>Ivt</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/application.scss:5
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___897269261158658603_48280180'
+
+
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.1ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (22.6ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (13.5ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/oleg/.rvm/gems/ruby-2.2.2/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (26.3ms)
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-03 12:34:03 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1815ms (Views: 1814.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-a16872455ba59160982feabe7b5ad0e6367efa617283b78ed5b759de2eb5b2dd.css?body=1" for 127.0.0.1 at 2015-11-03 12:34:05 +0300
+
+
+Started GET "/1" for 127.0.0.1 at 2015-11-03 12:34:22 +0300
+Processing by LabOneController#index as HTML
+  Rendered lab_one/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1837ms (Views: 1836.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-c5e9692f7ccbdb4db1700eb641e8b069583d219922cf1d9edf144d53d1cd2a41.css?body=1" for 127.0.0.1 at 2015-11-03 12:34:24 +0300

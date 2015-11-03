@@ -1,0 +1,77 @@
+I"Ó(function() {
+  var AddColumn, CreateChart, Numiration;
+
+  $(function() {
+    Numiration();
+    CreateChart();
+    $('#regular-minus').click(function() {
+      if ($('#tableId table').find('tr:first-child').find('td').length > 4) {
+        return AddColumn('minus');
+      }
+    });
+    $('#regular-plus').click(function() {
+      return AddColumn('plus');
+    });
+    return $('#start').click(function() {
+      return console.log($('#tableId table').rows[1].html());
+    });
+  });
+
+  AddColumn = function(handler) {
+    if (handler === "plus") {
+      $('#tableId table tr').each(function() {
+        $(this).append('<td></td>');
+      });
+    } else {
+      $('#tableId table tr').each(function() {
+        $(this).find("td:last-child").remove();
+      });
+    }
+    return Numiration();
+  };
+
+  Numiration = function() {
+    var i;
+    i = 0;
+    $('#tableId table').find('tr:first-child').find('td').each(function() {
+      if (i > 0) {
+        $(this).html(i);
+      }
+      return i++;
+    });
+    i = 0;
+    $('#tableId table').find('tr:last-child').find('td').each(function() {
+      if (i > 0) {
+        $(this).html('<input class="input-table" type="text">');
+      }
+      return i++;
+    });
+    i = 0;
+    $('#tableId table').find('tr:nth-child(2)').find('td').each(function() {
+      if (i > 0) {
+        $(this).html('<input class="input-table" type="text">');
+      }
+      return i++;
+    });
+  };
+
+  CreateChart = function(data, label) {
+    var options;
+    options = {
+      series: {
+        lines: {
+          show: false
+        },
+        points: {
+          show: true
+        }
+      },
+      yaxis: {
+        max: 1
+      }
+    };
+    return $.plot($("#placeholder"), [[[0, 0], [1, 1]]], options);
+  };
+
+}).call(this);
+:ET

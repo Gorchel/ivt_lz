@@ -1,0 +1,33 @@
+I"ë(function() {
+  var AddColumn, Numiration;
+
+  $(function() {
+    $('#regular-minus').click(function() {
+      return AddColumn('minus');
+    });
+    return $('#regular-plus').click(function() {
+      return AddColumn('plus');
+    });
+  });
+
+  AddColumn = function(handler) {
+    if (handler === "plus") {
+      return $('#tableId table tr').each(function() {
+        $(this).append('<td></td>');
+      });
+    } else {
+      return $('#tableId table tr').each(function() {
+        $(this).find("td:last-child").remove();
+        Numiration();
+      });
+    }
+  };
+
+  Numiration = function() {
+    return $('#tableId table').find('tr:first-child').find('td').each(function() {
+      return console.log($(this).html());
+    });
+  };
+
+}).call(this);
+:ET

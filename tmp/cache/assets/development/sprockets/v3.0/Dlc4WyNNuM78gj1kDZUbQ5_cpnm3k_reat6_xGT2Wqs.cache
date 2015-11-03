@@ -1,0 +1,41 @@
+I"~(function() {
+  var AddColumn, Numiration;
+
+  $(function() {
+    Numiration();
+    $('#regular-minus').click(function() {
+      if ($('#tableId table').find('tr:first-child').find('td').length() > 3) {
+        return AddColumn('minus');
+      }
+    });
+    return $('#regular-plus').click(function() {
+      return AddColumn('plus');
+    });
+  });
+
+  AddColumn = function(handler) {
+    if (handler === "plus") {
+      $('#tableId table tr').each(function() {
+        $(this).append('<td></td>');
+      });
+    } else {
+      $('#tableId table tr').each(function() {
+        $(this).find("td:last-child").remove();
+      });
+    }
+    return Numiration();
+  };
+
+  Numiration = function() {
+    var i;
+    i = 0;
+    return $('#tableId table').find('tr:first-child').find('td').each(function() {
+      if (i > 0) {
+        $(this).html(i);
+      }
+      return i++;
+    });
+  };
+
+}).call(this);
+:ET

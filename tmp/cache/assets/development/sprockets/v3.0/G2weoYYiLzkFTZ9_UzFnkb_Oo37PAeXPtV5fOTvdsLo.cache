@@ -1,0 +1,101 @@
+I"h	(function() {
+  var AddColumn, CreateChart, Numiration;
+
+  $(function() {
+    Numiration();
+    $('#regular-minus').click(function() {
+      if ($('#tableId table').find('tr:first-child').find('td').length > 4) {
+        return AddColumn('minus');
+      }
+    });
+    $('#regular-plus').click(function() {
+      return AddColumn('plus');
+    });
+    return $('#start').click(function() {
+      var arrayLength, data, i, x, y;
+      data = [];
+      arrayLength = $('#tableId table').find('tr:first-child').find('td').length - 1;
+      i = 1;
+      while (i <= arrayLength) {
+        x = $('[data-id=1' + i + ']').val();
+        y = $('[data-id=2' + i + ']').val();
+        data.push([x, y]);
+        i++;
+      }
+      return CreateChart(data);
+    });
+  });
+
+  AddColumn = function(handler) {
+    if (handler === "plus") {
+      $('#tableId table tr').each(function() {
+        $(this).append('<td></td>');
+      });
+    } else {
+      $('#tableId table tr').each(function() {
+        $(this).find("td:last-child").remove();
+      });
+    }
+    return Numiration();
+  };
+
+  Numiration = function() {
+    var i;
+    i = 0;
+    $('#tableId table').find('tr:first-child').find('td').each(function() {
+      if (i > 0) {
+        $(this).html(i);
+      }
+      return i++;
+    });
+    i = 0;
+    $('#tableId table').find('tr:last-child').find('td').each(function() {
+      var handler;
+      if (i > 0) {
+        handler = "2" + i.toString();
+        $(this).html('<input data-id =' + handler + ' class="input-table" value=' + handler + ' type="text">');
+      }
+      return i++;
+    });
+    i = 0;
+    $('#tableId table').find('tr:nth-child(2)').find('td').each(function() {
+      var handler;
+      if (i > 0) {
+        handler = "1" + i.toString();
+        $(this).html('<input data-id =' + handler + ' class="input-table" value=' + handler + ' type="text">');
+      }
+      return i++;
+    });
+  };
+
+  CreateChart = function(data) {
+    var options;
+    options = {
+      series: {
+        lines: {
+          show: false
+        },
+        points: {
+          show: true
+        }
+      },
+      grid: {
+        borderColor: '#507296',
+        hoverable: true
+      },
+      yaxis: {
+        min: 10,
+        max: 30,
+        tickSize: 3
+      },
+      xaxis: {
+        min: 10,
+        max: 30,
+        tickSize: 3
+      }
+    };
+    return $.plot($("#placeholder"), [data], options);
+  };
+
+}).call(this);
+:ET
